@@ -71,3 +71,29 @@
     width: 140px;
     height: 40px;
 }
+
+
+
+
+
+
+
+/* responsive media query  */
+
+/* mobile devices */
+
+@media screen and (max-width:600px) {
+    .banner{
+        border-radius: 8px;
+        padding: 20px;
+    }
+    .banner h2{
+        font-size: 1.38rem;
+    }
+    .input-field{
+        flex-direction: column;
+    }
+    .input-field input{
+        width:93%;
+    }
+}
